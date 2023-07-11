@@ -1,0 +1,15 @@
+QUERY GROUP BY
+
+1.SELECT enrolment_date AS id
+  FROM students
+  GROUP BY enrolment_date;
+
+2.SELECT office_address, GROUP_CONCAT(surname) AS  same_building
+  FROM teachers
+  GROUP BY office_address;
+
+3.SELECT AVG(vote)
+  FROM exam_student
+  GROUP BY student_id;
+
+4.
